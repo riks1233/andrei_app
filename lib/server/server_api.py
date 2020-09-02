@@ -27,8 +27,15 @@ class RequestHandler(BaseHTTPRequestHandler):
                 "projectId": "1",
                 "info": "text",
                 "registeredAt": "2020-06-03T00:02:36.0000000+00:00",
-                "eventType": "PAUSE",
-
+                "eventType": "PAUSE"
+            },
+            {
+             "id": 212,
+             "userId": "321",
+             "projectId": "1",
+             "info": "text",
+             "registeredAt": "2020-06-03T00:02:36.0000000+00:00",
+             "eventType": "RESUME"
             }
         ]).encode())
         return
