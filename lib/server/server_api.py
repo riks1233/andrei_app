@@ -26,16 +26,24 @@ class RequestHandler(BaseHTTPRequestHandler):
                 "userId": "321",
                 "projectId": "1",
                 "info": "text",
-                "registeredAt": "2020-06-03T00:02:36.0000000+00:00",
+                "registeredAt": "2020-06-03T00:02:38.0000000+00:00",
                 "eventType": "PAUSE"
             },
             {
-             "id": 212,
-             "userId": "321",
-             "projectId": "1",
-             "info": "text",
-             "registeredAt": "2020-06-03T00:02:36.0000000+00:00",
-             "eventType": "RESUME"
+                 "id": 212,
+                 "userId": "321",
+                 "projectId": "1",
+                 "info": "text",
+                 "registeredAt": "2020-06-03T00:02:48.0000000+00:00",
+                 "eventType": "RESUME"
+            },
+            {
+                "id": 213,
+                "userId": "321",
+                "projectId": "1",
+                "info": "text",
+                "registeredAt": "2020-06-03T00:02:58.0000000+00:00",
+                "eventType": "PAUSE"
             }
         ]).encode())
         return
